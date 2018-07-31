@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* Attite Project 7 March 2018 */
+
+body{
+	padding:0px;
+	margin:0px;
+	font-family: 'Arima Madurai', cursive;
+	background:url('../images/cover/bk3.jpg');
+}
+
+
+
+/* -------------Index Page Start----------  */
+
+.dropdown-content {
+   overflow-y: visible;
+}
+
+.dropdown-content .dropdown-content {
+   margin-left: 100%;
+}
+
+
+/* Carousel */
+.carousel{
+	margin-bottom:50px;
+}
+
+#card-text{
+	right:0%;
+	font-size:40px;
+}
+
+#blink:hover{
+	transition:ease-in-out 0.5s;
+	transform: scale(1.1);
+}
+
+#logo{
+	 margin-left: -50px;
+}
+
+#logBtn {
+	margin-left:70%;
+	display: inline-flex;
+}
+
+#converter{
+	margin-left: 10px;
+}
+
+#newArrivals{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#detailsBox{
+	padding-left: 15%;
+}
+
+#size-opt{
+	display: inline-flex;
+	padding: 20px;
+}
+
+#size-opt p{
+	margin-right: 5px;
+
+}
+	
+/* -------------Index Page End--------------  */
+
+/* -------------Contact Page Start----------  */
+
+#contact-box1{
+	padding:30px;
+}
+
+/* Ending Circles */
+#symbol{
+	text-align:center;
+}
+/* Google Map */
+#map{
+	height:422px;
+	width:380px;
+}
+/* --------------Contact Page End----------  */
+
+
+/* -------------Footer Page Start----------  */
+/* Footer */
+#social{
+	display: -webkit-inline-box;
+}
+
+#social li{
+	padding:10px;
+}
+
+#social li :hover{
+	color:#333;
+}
+ul >li :hover{
+	color:#333;
+
+}
+/* -------------Contact Page End------------  */
+
+
+@media only screen and (max-width: 992px){
+	#card-text{
+	right:0%;
+	font-size:30px;
+}
+}
